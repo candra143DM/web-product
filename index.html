@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUMORA STORE | Toko Online</title>
+<meta name="description" content="Belanja tumbler, tote bag, dan notebook minimalis di Lumora Store. Pesan produk favoritmu dengan mudah.">
+<meta name="keywords" content="Lumora Store, toko online, tumbler, tote bag, notebook">
+<meta name="author" content="LUMORA STORE"><meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ganti-dengan-domain-website-kamu/">
+<style>
+:root{--cream:#fbf7f0;--pink:#ead1cc;--brown:#654b43;--dark:#302824;--muted:#887a72}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--dark);font-family:Arial,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#fbf7f0ee;border-bottom:1px solid #eadfd6}
+nav{max-width:1100px;margin:auto;padding:18px 22px;display:flex;align-items:center;justify-content:space-between}
+.logo{font: bold 24px Georgia,serif;letter-spacing:3px;color:var(--brown)}nav a{color:var(--dark);text-decoration:none;margin-left:22px;font-size:14px}
+.hero{max-width:1100px;margin:35px auto 55px;padding:55px 7%;min-height:340px;background:linear-gradient(110deg,#f0dfd7,#ead1cc);border-radius:22px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.hero small{letter-spacing:3px;color:var(--brown);font-weight:bold}h1{font: bold clamp(38px,6vw,62px) Georgia,serif;line-height:1.05;margin:16px 0;color:var(--brown)}
+.hero p{max-width:440px;line-height:1.7;color:#66534c}.hero img{width:38%;max-height:245px;object-fit:cover;border-radius:16px}
+.btn{display:inline-block;background:var(--brown);color:white;border:0;padding:13px 21px;border-radius:30px;text-decoration:none;cursor:pointer;font-weight:bold}
+section{max-width:1100px;margin:0 auto 65px;padding:0 22px}.section-title{text-align:center;margin-bottom:28px}
+.section-title h2{font:bold 32px Georgia,serif;color:var(--brown);margin-bottom:8px}.section-title p{color:var(--muted)}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.product{background:white;border-radius:17px;overflow:hidden;box-shadow:0 5px 20px #5943380d}
+.product img{width:100%;height:220px;object-fit:cover;background:#eee}.product-info{padding:18px}.product h3{margin:0 0 8px;color:var(--brown)}
+.product p{color:var(--muted);font-size:14px;line-height:1.5;min-height:42px}.price{font-weight:bold;margin:14px 0}
+.product button{width:100%}.order-box{max-width:650px;margin:auto;background:white;border-radius:18px;padding:25px;box-shadow:0 5px 20px #5943380d}
+label{display:block;font-weight:bold;font-size:14px;margin:14px 0 7px}input,select,textarea{width:100%;padding:12px;border:1px solid #dfd2ca;border-radius:9px;font:inherit;background:white}
+.total{font-size:18px;font-weight:bold;color:var(--brown);margin:18px 0}footer{text-align:center;padding:28px;background:#eadfd6;color:#66534c;font-size:13px;line-height:1.7}
+@media(max-width:700px){nav{padding:15px}nav a{margin-left:10px;font-size:12px}.hero{margin:20px 14px 40px;padding:30px 24px;min-height:0}.hero img{display:none}.products{grid-template-columns:1fr}.product img{height:240px}section{padding:0 16px}}
+</style>
+</head>
+<body>
+<header><nav><div class="logo">LUMORA.</div><div><a href="#home">Beranda</a><a href="#produk">Produk</a><a href="#pesan">Pesan</a></div></nav></header>
+<main>
+<div class="hero" id="home"><div><small>WELCOME TO LUMORA STORE</small><h1>Little Things,<br>Lovely Days.</h1><p>Temukan barang sederhana yang membuat aktivitas sehari-harimu menjadi lebih menyenangkan.</p><a class="btn" href="#produk">Belanja Sekarang</a></div><img src="https://images.unsplash.com/photo-1544816155-12df9643f363?w=700" alt="Notebook dan perlengkapan alat tulis"></div>
+<section id="produk"><div class="section-title"><h2>Our Products</h2><p>Pilihan produk favorit untuk menemani harimu.</p></div>
+<div class="products">
+<article class="product"><img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=700" alt="Tumbler minimalis"><div class="product-info"><h3>Cloud Tumbler</h3><p>Tumbler minimalis untuk menemani aktivitas sehari-hari.</p><div class="price">Rp85.000</div><button class="btn" onclick="chooseProduct('Cloud Tumbler',85000)">Pesan Produk</button></div></article>
+<article class="product"><img src="https://images.unsplash.com/photo-1544816155-12df9643f363?w=700" alt="Notebook estetik"><div class="product-info"><h3>Daily Notebook</h3><p>Buku catatan sederhana untuk ide dan rencana harianmu.</p><div class="price">Rp45.000</div><button class="btn" onclick="chooseProduct('Daily Notebook',45000)">Pesan Produk</button></div></article>
+<article class="product"><img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700" alt="Tote bag kanvas"><div class="product-info"><h3>Everyday Tote Bag</h3><p>Tas kanvas praktis untuk kuliah, bekerja, dan bepergian.</p><div class="price">Rp60.000</div><button class="btn" onclick="chooseProduct('Everyday Tote Bag',60000)">Pesan Produk</button></div></article>
+</div></section>
+<section id="pesan"><div class="section-title"><h2>Form Pemesanan</h2><p>Isi data berikut untuk melanjutkan pesanan melalui WhatsApp.</p></div>
+<div class="order-box">
+<form id="orderForm">
+<label for="nama">Nama pembeli</label><input id="nama" required placeholder="Masukkan nama kamu">
+<label for="produkPilihan">Pilih produk</label><select id="produkPilihan" required onchange="updateTotal()"><option value="">-- Pilih produk --</option><option value="Cloud Tumbler" data-price="85000">Cloud Tumbler - Rp85.000</option><option value="Daily Notebook" data-price="45000">Daily Notebook - Rp45.000</option><option value="Everyday Tote Bag" data-price="60000">Everyday Tote Bag - Rp60.000</option></select>
+<label for="jumlah">Jumlah barang</label><input id="jumlah" type="number" min="1" value="1" required oninput="updateTotal()">
+<label for="alamat">Alamat pengiriman</label><textarea id="alamat" rows="3" required placeholder="Masukkan alamat lengkap"></textarea>
+<div class="total" id="total">Total: Rp0</div>
+<button class="btn" type="submit">Pesan melalui WhatsApp</button>
+</form></div></section>
+</main>
+<footer><strong>LUMORA STORE</strong><br>Terima kasih telah berbelanja bersama kami.<br>© 2026 Lumora Store. Website demonstrasi untuk tugas Digital Presence.</footer>
+<script>
+const nomorWhatsApp = "6281234567890"; // GANTI dengan nomor WhatsApp penjual, gunakan kode negara tanpa tanda +
+function rupiah(angka){return new Intl.NumberFormat("id-ID",{style:"currency",currency:"IDR",maximumFractionDigits:0}).format(angka)}
+function updateTotal(){const s=document.getElementById("produkPilihan");const harga=Number(s.options[s.selectedIndex]?.dataset.price||0);const jumlah=Math.max(1,Number(document.getElementById("jumlah").value||1));document.getElementById("total").textContent="Total: "+rupiah(harga*jumlah)}
+function chooseProduct(nama,harga){const s=document.getElementById("produkPilihan");s.value=nama;document.getElementById("jumlah").value=1;updateTotal();document.getElementById("pesan").scrollIntoView({behavior:"smooth"})}
+document.getElementById("orderForm").addEventListener("submit",function(e){e.preventDefault();const nama=document.getElementById("nama").value.trim();const produk=document.getElementById("produkPilihan");const item=produk.value;const harga=Number(produk.options[produk.selectedIndex].dataset.price);const jumlah=Number(document.getElementById("jumlah").value);const alamat=document.getElementById("alamat").value.trim();if(!item||jumlah<1){alert("Pilih produk dan jumlah yang benar.");return}const pesan=`Halo LUMORA STORE, saya ingin memesan:\n\nNama: ${nama}\nProduk: ${item}\nHarga satuan: ${rupiah(harga)}\nJumlah: ${jumlah}\nTotal: ${rupiah(harga*jumlah)}\nAlamat: ${alamat}\n\nMohon konfirmasi pesanan saya. Terima kasih.`;window.open(`https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`,"_blank")});
+</script>
+</body></html>
